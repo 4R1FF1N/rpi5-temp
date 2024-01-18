@@ -1,0 +1,12 @@
+#l33t
+
+import os
+import time
+
+def main():
+    os.system("vcgencmd measure_temp")
+
+while True:
+    main()
+    time.sleep(1)
+
